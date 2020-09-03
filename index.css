@@ -1,30 +1,30 @@
-* {
+* { /*the asterisk means all the rules here will be applied to the entire page*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
+body { /* styles the body tag*/
     background-color: #d9dcd6;
 }
 
-.header {
+.header { /*styles the class header*/
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;/*multiple fonts in case the browser/device of the end user doesn't support the primary font*/
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+.header h1 { /*styles the class header and h1 tag*/
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+.header h1 .seo {/*styles header class, h1 tag and seo class*/
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {/*styles header class and navigation tags*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,48 +32,48 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul { /*styles the Class header, the navigation tags and the list items*/
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li { /*styles the Class header, the navigation tags the list*/
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
+a { /*styles all links in the page*/
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
+p { /*styles all the paragraphs in the page*/
     font-size: 16px;
 }
 
-.hero {
+.hero { /*styles the Class hero*/
    
     width: 100%;
     margin-bottom: 25px;
     background-position: center;
 }
 
-.float-left {
+.float-left { /*styles the Class float-left*/
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.float-right { /*styles the Class float-right*/
     float: right;
     margin-left: 25px;
 }
 
-.content {
+.content { /*styles the Class content*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+.benefits { /*styles the Class benefits*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -84,55 +84,55 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-lead { /*styles the Class benefit-lead*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
+.benefit-brand { /*styles the Class benefit-brand*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-cost {
+.benefit-cost { /*styles the Class benefit-cost*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+.benefit-lead h3 { /*styles the Class benefit-lead and content in the h3 tag*/
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+.benefit-brand h3 { /*styles the Class benefit-brand and content in the h3 tag*/
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-cost h3 {
+.benefit-cost h3 { /*styles the Class benefit-cost and content in the h3 tag*/
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
+.benefit-lead img { /*styles the Class benefit-lead and the images*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
+.benefit-brand img { /*styles the Class benefit-brand and the images*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-cost img {
+.benefit-cost img { /*styles the Class benefit-cost and the images*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
+.search-engine-optimization { /*styles the Class search-engine-optimization*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -141,7 +141,7 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+.online-reputation-management { /*styles the Class benefit-lead online-reputation-management*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -150,7 +150,7 @@ p {
     color: #ffffff;
 }
 
-.social-media-marketing {
+.social-media-marketing { /*styles the Class social-media-marketing*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -159,40 +159,40 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+.search-engine-optimization img { /*styles the Class search-engine-optimization and the images*/
     max-height: 200px;
 }
 
-.online-reputation-management img {
+.online-reputation-management img { /*styles the Class online-reputation-management and the images*/
     max-height: 200px;
 }
 
-.social-media-marketing img {
+.social-media-marketing img { /*styles the Class social--media-marketing and the images*/
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+.search-engine-optimization h2 { /*styles the Class search-engine-optimization and the h2 tags*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+.online-reputation-management h2 { /*styles the Class online-reputation-management and the h2 tags*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.social-media-marketing h2 {
+.social-media-marketing h2 { /*styles the Class social-media-marketing and the h2 tags*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.footer {
+.footer { /*styles the Class footer*/
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 { /*styles the Class footer and h4 the tags*/
     font-size: 20px;
 }
