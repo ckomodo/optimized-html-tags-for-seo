@@ -13,7 +13,7 @@ a { /*styles all links in the page*/
     text-decoration: none;
 }
 
-p { /*styles all the paragraphs in the page*/
+p { /*styles all the paragraphs in the page. These tags (like body, a, p) should appear above classes and IDs*/
     font-size: 16px;
 }
 
