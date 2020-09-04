@@ -16,4 +16,4 @@ To contribute to this, just clone the repository and get busy!
 
 # Credits
 
-I did not make this website, I just went through the code making edits I thought were important including replacing <div> tags with <article> or <section> tags to enhance specificity.
+I did not make this website, I just went through the code making edits I thought were important including replacing some tags to enhance specificity.
